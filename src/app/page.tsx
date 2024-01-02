@@ -119,7 +119,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs"
+                            className="ml-1 align-middle text-[10px]"
                             key={badge}
                           >
                             {badge}
@@ -137,7 +137,9 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {work.description.split("\n").map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))}
                 </CardContent>
               </Card>
             );

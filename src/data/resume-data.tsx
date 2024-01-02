@@ -52,55 +52,60 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      school: "University of California, Berkeley",
+      degree:
+        "Bachelor's Degree in Data Science with specialization in Applied Mathematics & Modeling, I am a Transfer Student and a Cal Alumni Leadership Scholar. Somehow have a 4.0 GPA",
+      start: "2023",
+      end: "2025",
+    },
+    {
+      school: "Halıcıoğlu Data Science Institute (UC San Diego)",
+      degree:
+        "Bachelor's Degree in Data Science with specialization in Artificial Intelligence and Machine Learning,  GPA: 4.0/4.0",
+      start: "2021",
+      end: "2023",
+    },
+    {
+      school: "La Martinière College, Lucknow",
+      degree:
+        "I completed my high school education with a focus on Math and Computer Science. I achieved a score of 98.25% in the ISC and 95% in the ICSE exams. Attended a different school for XI & XII but I regret that decision to this day.",
       start: "2007",
-      end: "2010",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Whatnot",
+      link: "https://www.whatnot.com/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Incoming Software Engineering Intern",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      start: "May 2024",
+      end: "Aug 2024",
+      description: "Summer 2024",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Dart",
+      link: "https://dart.cx",
+      badges: ["San Francisco, CA"],
+      title: "Co-Founder & CEO",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      start: "Nov 2023",
+      end: "Present",
+      description: "Building the future of conversational AI over phone",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      company: "Deepgram, Inc",
+      link: "https://deepgram.com",
+      badges: ["Ann Arbor, MI"],
+      title: "Software Engineering Intern",
+      logo: ClevertechLogo,
+      start: "Jun 2023",
+      end: "Aug 2023",
+      description: `•Engineered and deployed a full-stack live transcription tool for Deepgram’s strategic partnerships at tech events. Utilized NextJs, Supabase, slack api, flyio and websockets.\n
+•Contributed to Deepgram Python SDK, supporting new features and improving reliability.\n
+•Developed 3 starter apps in Java, C#, and PHP to help enterprise users get started with Deepgram’s transcription in different languages.\n
+•Implemented a full-stack sentiment analysis tool to analyze YouTube videos using open-source transformer models and the Deepgram API.`,
     },
   ],
   skills: [
