@@ -80,9 +80,9 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Incoming Software Engineer",
       logo: ParabolLogo,
-      start: "May 2024",
-      // end: "Aug 2024",
-      // description: "> Summer 2024",
+      start: "Jan 2024",
+      end: "Present",
+      description: "",
     },
     {
       company: "Dart",
