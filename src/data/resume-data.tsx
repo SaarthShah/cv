@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://maps.app.goo.gl/5gLWWGFiGTL45QBLA",
   about: "Entrepreneur, Data Scientist, and Full Stack Engineer",
   summary:
-    "I am concurrently a student at the University of California, Berkeley, and a proficient Data Scientist as well as a skilled Full-Stack Developer. My passion lies in leveraging my technical expertise to tackle real-world problems and find innovative solutions.",
+    "I am a proficient Data Scientist as well as a skilled Full-Stack Developer. My passion lies in leveraging my technical expertise to tackle real-world problems and find innovative solutions.",
   avatarUrl: "./images/avatar.png",
   personalWebsiteUrl: "https://www.saarthshah.com",
   contact: {
