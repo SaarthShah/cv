@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       degree:
         "Bachelor's Degree in Data Science with specialization in Applied Mathematics & Modeling, I am a Transfer Student and a Cal Alumni Leadership Scholar. Somehow have a 4.0 GPA",
       start: "2023",
-      end: "2025",
+      end: "2024",
     },
     {
       school: "Halıcıoğlu Data Science Institute (UC San Diego)",
@@ -78,11 +78,11 @@ export const RESUME_DATA = {
       company: "Whatnot",
       link: "https://www.whatnot.com/",
       badges: ["Remote"],
-      title: "Incoming Software Engineering Intern",
+      title: "Incoming Software Engineer",
       logo: ParabolLogo,
       start: "May 2024",
-      end: "Aug 2024",
-      description: "> Summer 2024",
+      // end: "Aug 2024",
+      // description: "> Summer 2024",
     },
     {
       company: "Dart",
