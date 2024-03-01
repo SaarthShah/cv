@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://maps.app.goo.gl/5gLWWGFiGTL45QBLA",
   about: "Entrepreneur, Data Scientist, and Full Stack Engineer",
   summary:
-    "I am a proficient Data Scientist as well as a skilled Full-Stack Developer. My passion lies in leveraging my technical expertise to tackle real-world problems and find innovative solutions.",
+    "I am concurrently a student at the University of California, Berkeley, and a proficient Data Scientist as well as a skilled Full-Stack Developer. My passion lies in leveraging my technical expertise to tackle real-world problems and find innovative solutions.",
   avatarUrl: "./images/avatar.png",
   personalWebsiteUrl: "https://www.saarthshah.com",
   contact: {
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       degree:
         "Bachelor's Degree in Data Science with specialization in Applied Mathematics & Modeling, I am a Transfer Student and a Cal Alumni Leadership Scholar. Somehow have a 4.0 GPA",
       start: "2023",
-      end: "2024",
+      end: "2025",
     },
     {
       school: "Halıcıoğlu Data Science Institute (UC San Diego)",
@@ -78,11 +78,11 @@ export const RESUME_DATA = {
       company: "Whatnot",
       link: "https://www.whatnot.com/",
       badges: ["Remote"],
-      title: "Incoming Software Engineer",
+      title: "Incoming Software Engineering Intern",
       logo: ParabolLogo,
-      start: "Jan 2024",
-      end: "Present",
-      description: "",
+      start: "May 2024",
+      end: "Aug 2024",
+      description: "> Summer 2024",
     },
     {
       company: "Dart",
