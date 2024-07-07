@@ -8,8 +8,11 @@ import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
-import { ProjectCard } from "@/components/project-card";
 import CustomFontStyles from "@/components/CustomFontStyles";
+import EmblaCarousel from "@/components/ui/EmblaCarousel";
+import { LinkPreview } from "@dhaiwat10/react-link-preview";
+
+const OPTIONS = { loop: true };
 
 export default function Page() {
   return (
@@ -52,18 +55,6 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {/* {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="h-8 w-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="h-4 w-4" />
-                  </a>
-                </Button>
-              ) : null} */}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -84,11 +75,6 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
-              {/* {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
-                </a>
-              ) : null} */}
             </div>
           </div>
 
@@ -136,11 +122,32 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-sm">
                   {work.description.split("\n").map((line, index) => (
                     <p key={index}>{line}</p>
                   ))}
                 </CardContent>
+                <div className="mb-6 mt-2">
+                  <CardContent className="media embla">
+                    <EmblaCarousel
+                      slides={[
+                        ...work.media.videos.map((video) => ({
+                          url: video,
+                          type: "video" as const, // Explicitly type as "video"
+                        })),
+                        ...work.media.images.map((image) => ({
+                          url: image,
+                          type: "image" as const, // Explicitly type as "image"
+                        })),
+                        ...work.media.linkPreviews.map((link) => ({
+                          url: link,
+                          type: "link" as const, // Explicitly type as "link"
+                        })),
+                      ]}
+                      options={OPTIONS}
+                    />
+                  </CardContent>
+                </div>
               </Card>
             );
           })}
@@ -174,36 +181,19 @@ export default function Page() {
           </div>
         </Section>
 
-        {/* <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
-          </div>
-        </Section> */}
+        <CommandMenu
+          links={[
+            {
+              url: RESUME_DATA.personalWebsiteUrl,
+              title: "Personal Website",
+            },
+            ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
+              url: socialMediaLink.url,
+              title: socialMediaLink.name,
+            })),
+          ]}
+        />
       </section>
-
-      <CommandMenu
-        links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
-        ]}
-      />
     </main>
   );
 }
