@@ -224,8 +224,7 @@ matching 900+ users on academic interests.\n• Raised $8000 in cash funds and $
     },
     {
       company: "Project Recoil",
-      relink:
-        "https://www.youtube.com/watch?v=e92QsK5Eidc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title",
+      link: "https://www.youtube.com/watch?v=e92QsK5Eidc&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&source_ve_path=MjM4NTE&feature=emb_title",
       badges: ["Remote"],
       title: "Game Developer",
       logo: ClevertechLogo,
