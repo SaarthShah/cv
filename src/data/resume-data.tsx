@@ -118,7 +118,7 @@ export const RESUME_DATA = {
       title: "Data Scientist",
       logo: ClevertechLogo,
       start: "Apr 2022",
-      end: "Present",
+      end: "Jan 2024",
       description: `• As of right now, research with wearable devices is limited to larger research labs with the skills to operate and extract data. Our research makes it easier for the public, students, and smaller research labs to conveniently get access to information on what the best wearables are, how to apply for using them for research, and how to get started using them for studies and statistical conclusions. Long-term we firmly believe that wearable biomedical sensors will revolutionize health care, and with our project we believe we can help accelerate that trajectory.\n • My contribution to this research was by building an open-source Python package that makes it easier for the public, students, and smaller labs to access health data for personal and clinical studies conveniently. Additionally, I wrote 5 Research Notebooks that teach the steps required to extract, visualize, and analyze data from popular APIs like Google Fit, Strava, Coros, Cronometer and Polar Flow. Formally, these notebooks will be submitted to Lancet Digital Health (Impact factor is 36) together with other information detailing wearable devices.`,
       media: {
         videos: [],
