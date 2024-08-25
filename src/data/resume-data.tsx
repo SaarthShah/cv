@@ -147,14 +147,14 @@ export const RESUME_DATA = {
       },
     },
     {
-      company: "Interalize (acquired)",
+      company: "Interalize",
       link: "https://www.internalize.io",
       badges: ["San Francisco, CA"],
       title: "Co-Founder & CEO",
       logo: ClevertechLogo,
       start: "Feb 2023",
       end: "Sep 2023",
-      description: `• Combining recommendation engines with LLMs to build consumer facing tools that helps companies drive revenue, cut engineering costs.\n• At Internalize, we spun off a team to create a Shopify chatbot plugin that combined recommendation engines with large language models. The chatbot, called dart.cx, could answer customer queries and recommend products. Dart was acquired in September 2023.`,
+      description: `• Combining recommendation engines with LLMs to build consumer facing tools that helps companies drive revenue, cut engineering costs.\n• At Internalize, we spun off a team to create a Shopify chatbot plugin that combined recommendation engines with large language models. The chatbot, called dart.cx, could answer customer queries and recommend products.`,
       media: {
         videos: [
           "https://www.youtube.com/embed/ELOPpBoN0AM?si=mBkpEsc0xdfHQs_I",
